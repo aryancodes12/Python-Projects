@@ -63,7 +63,7 @@ main()
 
 while True:
     print("\n\033[1;92mMenu:\033[0m")
-    print('''\033[1;93m1. Remove task.           2. Show task.\n3. Sort 'A to Z'.         4. Reverse task.\n5. Clear task.            6. Add tasks.\033[0m''')
+    print('''\033[1;93m1. Remove task.           2. Show all tasks.\n3. Sort 'A to Z'.         4. Reverse task.\n5. Clear task.            6. Add tasks.\033[0m''')
     functions = input("\nEnter function's number or name (or \033[1;94m'q'\033[0m to exit): ")
     if functions.lower() in ["1","remove"]:
         remove_task()
@@ -80,7 +80,10 @@ while True:
         print("\nAdd tasks:")
         main()
     elif functions.lower() == "q":
-        break
-print("\n\033[91mFunction Closed.\033[0m\n")
+        print("\n\033[91mFunction Closed.\033[0m\n")
+        break    
+    else:
+        print("\033[91mInvalid choice, please try again.\033[0m")
+
 
 
