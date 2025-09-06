@@ -23,27 +23,9 @@ It allows you to **add, remove, show, sort, reverse, and clear tasks** right fro
 ---
 
 ## 🖼️ Demo (Example)
-------TO-DO List app------
+<video src="assets/demo.mp4" width="500" autoplay loop muted playsinline></video>
 
-------Add Task------
 
-Enter Tasks or 'stop' to exit: Buy milk
-Enter Tasks or 'stop' to exit: Finish homework
-Enter Tasks or 'stop' to exit: stop
-
-Menu:
-
-1. Remove task.         2. Show all tasks.
-
-3. Sort 'A to Z'.       4. Reverse task.
-
-5. Clear task.          6. Add tasks.
-
-Enter function's number or name (or 'q' to exit): 2
-
-My Tasks:
-1. Buy Milk
-2. Finish Homework
 
 
 ---
