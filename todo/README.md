@@ -23,7 +23,8 @@ It allows you to **add, remove, show, sort, reverse, and clear tasks** right fro
 ---
 
 ## 🖼️ Demo (Example)
-<video src="assets/demo.mp4" width="500" autoplay loop muted playsinline></video>
+![Demo](assets/demo.gif)
+
 
 
 
